@@ -1,3 +1,5 @@
-import gears from "https://github.com/Annie-TADS/trabalho.design-interfaces.03/blob/main/json/characters.json" assert{typeof: "json"};
+import gears from "../json/gears.json" assert {type: "json"};
+import characters from "../json/characters.json" assert {type: "json"};
 
 console.log(gears);
+console.log(characters);
