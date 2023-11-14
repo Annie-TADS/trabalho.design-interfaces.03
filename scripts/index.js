@@ -1,12 +1,3 @@
-async function getData() {
-    try {
-        const response = await import('../json/gears.json');
-        return response.json();
-    } catch (err) {
-        setTimeout(() => {
-            getData();
-        }, 5000);
-    }
-}
+import gears from "https://github.com/Annie-TADS/trabalho.design-interfaces.03/blob/main/json/characters.json" assert{typeof: "json"};
 
-getData();
+console.log(gears);
