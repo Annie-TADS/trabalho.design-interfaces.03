@@ -1,0 +1,374 @@
+[
+    {
+        "name": "Blue Star",
+        "stats": {
+            "dash": 3,
+            "limit": 4,
+            "power": 3,
+            "cornering": 2
+        },
+        "description": "Robotnik Corp.\nSpeed type Air board",
+        "used_by": [
+            "Sonic"
+        ]
+    },
+    {
+        "name": "Yellow Tail",
+        "stats": {
+            "dash": 3,
+            "limit": 4,
+            "power": 3,
+            "cornering": 2
+        },
+        "description": "Robotnik Corp.\nFlight type Air board",
+        "used_by": [
+            "Tails"
+        ]
+    },
+    {
+        "name": "Red Rock",
+        "stats": {
+            "dash": 3,
+            "limit": 4,
+            "power": 3,
+            "cornering": 2
+        },
+        "description": "Robotnik Corp.\nPower type Air board",
+        "used_by": [
+            "Knuckles"
+        ]
+    },
+    {
+        "name": "Pink Rose",
+        "stats": {
+            "dash": 3,
+            "limit": 4,
+            "power": 3,
+            "cornering": 2
+        },
+        "description": "Robotnik Corp.\nSpeed type for women",
+        "used_by": [
+            "Amy"
+        ]
+    },
+    {
+        "name": "Type-J",
+        "stats": {
+            "dash": 3,
+            "limit": 4,
+            "power": 3,
+            "cornering": 2
+        },
+        "description": "Babylon Standard.\nSpeed type W (Wave)",
+        "used_by": [
+            "Jet"
+        ]
+    },
+    {
+        "name": "Type-S",
+        "stats": {
+            "dash": 3,
+            "limit": 4,
+            "power": 3,
+            "cornering": 2
+        },
+        "description": "Babylon Standard.\nSpeed Type W (Wave)",
+        "used_by": [
+            "Storm"
+        ]
+    },
+    {
+        "name": "Type-W",
+        "stats": {
+            "dash": 3,
+            "limit": 4,
+            "power": 3,
+            "cornering": 2
+        },
+        "description": "Babylon Standard.\nFlight Type W (Wave)",
+        "used_by": [
+            "Wave"
+        ]
+    },
+    {
+        "name": "Temptation",
+        "stats": {
+            "dash": 3,
+            "limit": 4,
+            "power": 3,
+            "cornering": 2
+        },
+        "description": "Robotnik Corp.\nFor women R (Rouge)",
+        "used_by": [
+            "Rouge"
+        ]
+    },
+    {
+        "name": "Smile",
+        "stats": {
+            "dash": 3,
+            "limit": 4,
+            "power": 3,
+            "cornering": 2
+        },
+        "description": "Robotnik Corp.\nFlight type for kids",
+        "used_by": [
+            "Cream"
+        ]
+    },
+    {
+        "name": "High Booster",
+        "stats": {
+            "dash": 2,
+            "limit": 3,
+            "power": 2,
+            "cornering": 2
+        },
+        "description": "Astounding boost ability",
+        "used_by": [
+            "Sonic",
+            "Tails",
+            "Knuckles",
+            "Amy",
+            "Jet",
+            "Storm",
+            "Wave",
+            "Rouge",
+            "Cream",
+            "Shadow"
+        ]
+    },
+    {
+        "name": "Auto Slider",
+        "stats": {
+            "dash": 3,
+            "limit": 3,
+            "power": 3,
+            "cornering": 2
+        },
+        "description": "Auto Air Slides when cornering!",
+        "used_by": [
+            "Sonic",
+            "Tails",
+            "Knuckles",
+            "Amy",
+            "Jet",
+            "Storm",
+            "Wave",
+            "Rouge",
+            "Cream",
+            "Shadow"
+        ]
+    },
+    {
+        "name": "Powerful Gear",
+        "stats": {
+            "dash": 1,
+            "limit": 4,
+            "power": 6,
+            "cornering": 2
+        },
+        "description": "Heavy Gear.\nWorks well even on poor roads",
+        "used_by": [
+            "Sonic",
+            "Tails",
+            "Knuckles",
+            "Amy",
+            "Jet",
+            "Storm",
+            "Wave",
+            "Rouge",
+            "Cream",
+            "Shadow"
+        ]
+    },
+    {
+        "name": "Fastest",
+        "stats": {
+            "dash": 0,
+            "limit": 7,
+            "power": 3,
+            "cornering": 0
+        },
+        "description": "Gear with the highest top speed",
+        "used_by": [
+            "Sonic",
+            "Tails",
+            "Knuckles",
+            "Amy",
+            "Jet",
+            "Storm",
+            "Wave",
+            "Rouge",
+            "Cream",
+            "Shadow"
+        ]
+    },
+    {
+        "name": "Turbo Star",
+        "stats": {
+            "dash": 6,
+            "limit": 1,
+            "power": 0,
+            "cornering": 2
+        },
+        "description": "Accelerates quickly to achieve top speed!",
+        "used_by": [
+            "Sonic",
+            "Tails",
+            "Knuckles",
+            "Amy",
+            "Jet",
+            "Storm",
+            "Wave",
+            "Rouge",
+            "Cream",
+            "Shadow"
+        ]
+    },
+    {
+        "name": "Speed Balancer",
+        "stats": {
+            "dash": 5,
+            "limit": 6,
+            "power": 1,
+            "cornering": 0
+        },
+        "description": "Performs well on straight roads.",
+        "used_by": [
+            "Sonic",
+            "Tails",
+            "Knuckles",
+            "Amy",
+            "Jet",
+            "Storm",
+            "Wave",
+            "Rouge",
+            "Cream",
+            "Shadow"
+        ]
+    },
+    {
+        "name": "Blue Star II",
+        "stats": {
+            "dash": 4,
+            "limit": 5,
+            "power": 2,
+            "cornering": 1
+        },
+        "description": "By Robotnik Corp.\nSpeed type for Sonic",
+        "used_by": [
+            "Sonic"
+        ]
+    },
+    {
+        "name": "Access",
+        "stats": {
+            "dash": 3,
+            "limit": 3,
+            "power": 2,
+            "cornering": 2
+        },
+        "description": "This Gear allows any character that can utilize it to fly",
+        "used_by": [
+            "Sonic",
+            "Knuckles",
+            "Amy",
+            "Jet",
+            "Storm",
+            "Shadow",
+            "AiAi",
+            "E-10000G",
+            "E-10000R",
+            "Ulala"
+        ]
+    },
+    {
+        "name": "Beginner",
+        "stats": {
+            "dash": 2,
+            "limit": 3,
+            "power": 2,
+            "cornering": 1
+        },
+        "description": "Consumes little air.\nGood for beginners!",
+        "used_by": [
+            "Sonic",
+            "Tails",
+            "Knuckles",
+            "Amy",
+            "Jet",
+            "Storm",
+            "Wave",
+            "Rouge",
+            "Cream",
+            "Shadow"
+        ]
+    },
+    {
+        "name": "Accelerator",
+        "stats": {
+            "dash": 5,
+            "limit": 2,
+            "power": 2,
+            "cornering": 2
+        },
+        "description": "By Robotnik Corp.\nSpeed boost enhanced",
+        "used_by": [
+            "Sonic",
+            "Tails",
+            "Knuckles",
+            "Amy",
+            "Jet",
+            "Storm",
+            "Wave",
+            "Rouge",
+            "Cream",
+            "Shadow"
+        ]
+    },
+    {
+        "name": "Trap Gear",
+        "stats": {
+            "dash": 4,
+            "limit": 2,
+            "power": 2,
+            "cornering": 2
+        },
+        "description": "Can execute unlimited tornados!",
+        "used_by": [
+            "Sonic",
+            "Tails",
+            "Knuckles",
+            "Amy",
+            "Jet",
+            "Storm",
+            "Wave",
+            "Rouge",
+            "Cream",
+            "Shadow"
+        ]
+    },
+    {
+        "name": "Light Board",
+        "stats": {
+            "dash": 4,
+            "limit": 3,
+            "power": 2,
+            "cornering": 2
+        },
+        "description": "Gear with the lightest weight",
+        "used_by": [
+            "Sonic",
+            "Tails",
+            "Knuckles",
+            "Amy",
+            "Jet",
+            "Storm",
+            "Wave",
+            "Rouge",
+            "Cream",
+            "Shadow"
+        ]
+    }
+]
