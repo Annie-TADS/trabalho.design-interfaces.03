@@ -1,0 +1,75 @@
+body {
+    margin: 0px;
+    overflow: initial;
+    background-color: rgba(0,0,0,0);
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    height: 150px;
+    width: 100vw;
+    background-color: rgba(255,255,255,0.7);
+    display: flex;
+        align-items: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 10vw 80vw 10vw;
+}
+
+.background_image {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    display: block;
+    background-image: url('https://pbs.twimg.com/media/DtJFYbWWkAA-FnL?format=jpg&name=small');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100vw;
+    height: 100vh;
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+}
+
+.header_title > h1{
+    margin-left: 2rem;
+    animation: title-letters 1800ms linear 0ms infinite;
+}
+
+ul {
+    grid-column-start: 2;
+}
+
+li {
+    background-color: white;
+    color: black;
+    
+    display: row;
+    margin: 120px;
+}
+
+.list-img {
+    height: 25px;
+    width: 25px;
+}
+
+@keyframes title-letters {
+    0% {
+        color: rgba(0,0,0);
+    }
+
+    50% {
+        color: rgb(37, 100, 37);
+    }
+
+    100% {
+        color: rgba(0,0,0);
+    }
+}

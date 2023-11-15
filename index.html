@@ -5,42 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xtreme Gear Catalogue</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Extreme Gear Catalogue</title>
 </head>
-
-<style>
-    .background_image {
-        position: fixed;
-        left: 0;
-        right: 0;
-        z-index: 1;
-        display: block;
-        background-image: url('https://pbs.twimg.com/media/DtJFYbWWkAA-FnL?format=jpg&name=small');
-        background-repeat: no-repeat;
-        background-size: cover;
-        
-        width: 100vw;
-        height: 100vh;
-        -webkit-filter: blur(10px);
-        -moz-filter: blur(10px);
-        -o-filter: blur(10px);
-        -ms-filter: blur(10px);
-        filter: blur(10px);
-    }
-
-    .helper {
-        position: fixed;
-        width: 50%;
-        top: calc(50vh - 15vh);
-        left: calc(50% + 20vw);
-        z-index: 2;
-    }
-
-</style>
 
 <body>
     <div class="background_image"></div>
+    <header>
+        <div class="header_title">
+            <h1>Welcome, to the Dark 'Extreme Gear' Shop!</h1>
+        </div>
+    </header>
 
+    <main>
+        <ul id="gear_list">
+            
+        </ul>
+    </main>
 </body>
 
 <script type="module" src="./scripts/index.js"></script>
