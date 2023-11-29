@@ -1,17 +1,19 @@
 body {
     margin: 0px;
     overflow: initial;
-    background-color: rgba(0,0,0,0);
+    font-family: "Nova Square";
+    background-color: rgba(0, 0, 0, 0);
 }
 
 header {
     position: sticky;
     top: 0px;
     height: 150px;
+    z-index: 200;
     width: 100vw;
-    background-color: rgba(255,255,255,0.7);
+    background-color: rgba(255, 255, 255, 0.7);
     display: flex;
-        align-items: center;
+    align-items: center;
 }
 
 main {
@@ -38,31 +40,93 @@ main {
     filter: blur(10px);
 }
 
-.header_title > h1{
+.header_title>h1 {
     margin-left: 2rem;
+    margin-right: 2rem;
     animation: title-letters 1800ms linear 0ms infinite;
 }
 
-ul {
+.gear_list {
     grid-column-start: 2;
 }
 
-li {
-    background-color: white;
-    color: black;
-    
-    display: row;
-    margin: 120px;
+.gear_card {
+    background-color: #00000000;
+    border: 3px solid #00000000;
+}
+
+.card_button {
+    background-color: #00000000;
+    border: 3px solid #00000000;
+    padding: 20px;
+    color: #999999;
+}
+
+.card_button:hover {
+    border-radius: 10px;
+    border: 3px solid rgb(0, 140, 255);
+    color: rgb(0, 140, 255);
+}
+
+.card_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title_images {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card_body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.title {
+    color: inherit;
+}
+
+.full {
+    animation: stat-bars 1800ms linear 0ms infinite;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+}
+
+ul {
+    list-style-type: none;
+    background-color: #8faf6688;
+    padding: 40px 15px 0px 15px;
+}
+
+li:hover {
+}
+
+table, tr, td, th {
+    border: 1px solid black;
+}
+
+td {
+    min-width: 20px;
 }
 
 .list-img {
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 30px;
 }
 
 @keyframes title-letters {
     0% {
-        color: rgba(0,0,0);
+        color: rgba(0, 0, 0);
     }
 
     50% {
@@ -70,6 +134,28 @@ li {
     }
 
     100% {
-        color: rgba(0,0,0);
+        color: rgba(0, 0, 0);
+    }
+}
+
+@keyframes stat-bars {
+    0% {
+        background-color: rgb(169, 199, 0);
+    }
+
+    50% {
+        background-color: rgb(189, 229, 20);
+    }
+
+    100% {
+        background-color: rgb(169, 199, 0);
+    }
+}
+
+@media (max-width: 500px) {
+    .stats {
+        width: 100%;
+        display: flex;
+            justify-content: center;
     }
 }

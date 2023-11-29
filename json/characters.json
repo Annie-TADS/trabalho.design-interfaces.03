@@ -1,42 +1,42 @@
 [
     {
         "name": "Sonic",
-        "icon": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0e738c17-7f3c-422e-8225-f8c782b08626/d8obg8n-b0b4af2d-8b88-4250-9a33-325a4616ca38.png/v1/fill/w_894,h_894/vector_icon_sonic_by_nibroc_rock_d8obg8n-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAwIiwicGF0aCI6IlwvZlwvMGU3MzhjMTctN2YzYy00MjJlLTgyMjUtZjhjNzgyYjA4NjI2XC9kOG9iZzhuLWIwYjRhZjJkLThiODgtNDI1MC05YTMzLTMyNWE0NjE2Y2EzOC5wbmciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.VFUwKOwPaYSqzOE37KrHxRXZAJx6qsif3b2DIlING8c"
+        "icon": "./images/sonic.png"
     },
     {
         "name": "Tails",
-        "icon": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0e738c17-7f3c-422e-8225-f8c782b08626/d8obgka-d495bd45-ad15-48a3-8584-a065e9682afa.png/v1/fill/w_894,h_894/vector_icon_tails_by_nibroc_rock_d8obgka-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAwIiwicGF0aCI6IlwvZlwvMGU3MzhjMTctN2YzYy00MjJlLTgyMjUtZjhjNzgyYjA4NjI2XC9kOG9iZ2thLWQ0OTViZDQ1LWFkMTUtNDhhMy04NTg0LWEwNjVlOTY4MmFmYS5wbmciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.C0Acu1EtA2wYm6GtQCtlRrUANXD8t0761A5VnctvoSg"
+        "icon": "./images/tails.png"
     },
     {
         "name": "Knuckles",
-        "icon": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0e738c17-7f3c-422e-8225-f8c782b08626/da8fbq0-1fad273c-46e4-4cfd-9982-9b23ac59a0ab.png/v1/fill/w_894,h_894/vector_icon_classic_knuckles_by_nibroc_rock_da8fbq0-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAwIiwicGF0aCI6IlwvZlwvMGU3MzhjMTctN2YzYy00MjJlLTgyMjUtZjhjNzgyYjA4NjI2XC9kYThmYnEwLTFmYWQyNzNjLTQ2ZTQtNGNmZC05OTgyLTliMjNhYzU5YTBhYi5wbmciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.nXx18NlLvu1zLAo5lb9XkfvbiNX2YRyWlesF24hk1nY"
+        "icon": "./images/knuckles.png"
     },
     {
         "name": "Amy",
-        "icon": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0e738c17-7f3c-422e-8225-f8c782b08626/d9polqr-20429e1a-6e59-4c78-9b1c-408e4b8cc6d4.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzBlNzM4YzE3LTdmM2MtNDIyZS04MjI1LWY4Yzc4MmIwODYyNlwvZDlwb2xxci0yMDQyOWUxYS02ZTU5LTRjNzgtOWIxYy00MDhlNGI4Y2M2ZDQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.3eWcZklWHeKPOn4Bov0CmyCn0e5BjFSblzVZIhnqURw"
+        "icon": "./images/amy.png"
     },
     {
         "name": "Jet",
-        "icon": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0e738c17-7f3c-422e-8225-f8c782b08626/d9pon6t-39e403ae-bee3-4e83-92f1-680e1c28cfd2.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzBlNzM4YzE3LTdmM2MtNDIyZS04MjI1LWY4Yzc4MmIwODYyNlwvZDlwb242dC0zOWU0MDNhZS1iZWUzLTRlODMtOTJmMS02ODBlMWMyOGNmZDIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.BX1wkWtu0Yscgcbsbk4YtFDp7_7JnJ61PRkpHn03pqg"
+        "icon": "./images/jet.png"
     },
     {
         "name": "Storm",
-        "icon": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0e738c17-7f3c-422e-8225-f8c782b08626/d8pdybr-421f73c9-f597-4b7a-a13c-c72495c58cca.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzBlNzM4YzE3LTdmM2MtNDIyZS04MjI1LWY4Yzc4MmIwODYyNlwvZDhwZHlici00MjFmNzNjOS1mNTk3LTRiN2EtYTEzYy1jNzI0OTVjNThjY2EucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.5UcrnkEUYnmIPXKnStM-rH8cD3lMxOZRWc4d629-y8s"
+        "icon": "./images/storm.png"
     },
     {
         "name": "Wave",
-        "icon": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0e738c17-7f3c-422e-8225-f8c782b08626/d8pdy9c-6001326d-2bf0-4606-99b3-73fb8a6251ee.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzBlNzM4YzE3LTdmM2MtNDIyZS04MjI1LWY4Yzc4MmIwODYyNlwvZDhwZHk5Yy02MDAxMzI2ZC0yYmYwLTQ2MDYtOTliMy03M2ZiOGE2MjUxZWUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.XUMWw1jTcBy2A9KqUfiA1q-rGX9bEB6JH12MEUpBqSs"
+        "icon": "./images/wave.png"
     },
     {
         "name": "Rouge",
-        "icon": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0e738c17-7f3c-422e-8225-f8c782b08626/d8obhxa-87945f93-54f5-46a9-94cb-a6176ad80e50.png/v1/fit/w_375,h_375/vector_icon_rouge_by_nibroc_rock_d8obhxa-375w.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAwIiwicGF0aCI6IlwvZlwvMGU3MzhjMTctN2YzYy00MjJlLTgyMjUtZjhjNzgyYjA4NjI2XC9kOG9iaHhhLTg3OTQ1ZjkzLTU0ZjUtNDZhOS05NGNiLWE2MTc2YWQ4MGU1MC5wbmciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.GVK-EEU8ATkvcSNHZRCSB_DL-jOhhg8dFtc60MAw62w"
+        "icon": "./images/rouge.png"
     },
     {
         "name": "Cream",
-        "icon": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0e738c17-7f3c-422e-8225-f8c782b08626/d9polxm-a819efe7-b934-497c-95d8-3624fbbf945a.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzBlNzM4YzE3LTdmM2MtNDIyZS04MjI1LWY4Yzc4MmIwODYyNlwvZDlwb2x4bS1hODE5ZWZlNy1iOTM0LTQ5N2MtOTVkOC0zNjI0ZmJiZjk0NWEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.LHK-DYEhbZ69UKf6nLLoT9au8MJCDF7ET-cAMS8aaHw"
+        "icon": "./images/cream.png"
     },
     {
         "name": "Shadow",
-        "icon": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0e738c17-7f3c-422e-8225-f8c782b08626/d8obhth-a972291f-4e0b-4200-be4a-2ce9daeb679e.png/v1/fill/w_894,h_894/vector_icon_shadow_by_nibroc_rock_d8obhth-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAwIiwicGF0aCI6IlwvZlwvMGU3MzhjMTctN2YzYy00MjJlLTgyMjUtZjhjNzgyYjA4NjI2XC9kOG9iaHRoLWE5NzIyOTFmLTRlMGItNDIwMC1iZTRhLTJjZTlkYWViNjc5ZS5wbmciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0._dsvG5myZFrfZCHSzjow81OVG53nEvKG97WFLftpUSo"
+        "icon": "./images/shadow.png"
     }
 ]
