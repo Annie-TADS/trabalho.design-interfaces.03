@@ -43,7 +43,7 @@ data.forEach((e) => {
                 
                     <div class="title_images">
                     ${e.used_by.map((user) => (
-        `<img class="list-img" src="${user.icon}"></img>`
+        `<img class="list-img" loading="lazy" src="${user.icon}"></img>`
     )).join("")}
                     </div>
 

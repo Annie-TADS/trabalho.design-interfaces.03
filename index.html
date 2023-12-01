@@ -1,46 +1,118 @@
-    <!DOCTYPE html>
-    <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nova+Square">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nova+Square">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <link rel="stylesheet" href="./styles/index.css">
-        <title>Extreme Gear Catalogue</title>
-    </head>
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Extreme Gear Catalogue</title>
+</head>
 
-    <body>
-        <div class="background_image"></div>
-        <header>
-            <div class="header_title">
-                <h1>Welcome, to the Dark 'Extreme Gear' Shop!</h1>
-            </div>
-        </header>
+<body>
+    <div class="background_image"></div>
+    <header>
+        <div class="header_title">
+            <h1>Welcome, to the Dark 'Extreme Gear' Shop!</h1>
+        </div>
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#buy">Buy now!!</a>
+            <a class="navbar-brand" href="#about">About the Game</a>
+            <a class="navbar-brand" href="#gallery">Gallery</a>
+            <a class="navbar-brand" href="#">Gear Collection</a>
+        </nav>
+    </header>
 
-        <main>
+    <main>
 
-            <div id="accordion" class="gear_list">
+        <div class="second_col">
+            <div id="accordion">
                 <ul id="gear_list">
 
 
 
                 </ul>
             </div>
-        </main>
-    </body>
 
-    <script type="module" src="./scripts/index.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
 
-    </html>
+            <div id="gallery">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="https://pbs.twimg.com/tweet_video_thumb/Dhi_ilKXkAAzq-M.jpg"
+                                alt="Splash Canyon">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Splash Canyon</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="https://mb.srb2.org/attachments/kart0023-png.71782/"
+                                alt="Green Cave">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Green cave</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="https://images.gamebanana.com/img/ss/mods/5fe9506983da0.jpg"
+                                alt="Metal City">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Metal City</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100"
+                                src="https://pm1.aminoapps.com/7088/40f2e69dfd5310e3bc1d8022cafb9e20fb21cc42r1-640-480v2_uhq.jpg"
+                                alt="Babylon Garden">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Babylon Garden</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </a>
+                </div>
+
+                <section id="about">
+                    <h2>Extreme Gears: Unleashing Speed and Style</h2>
+                    <p>Embark on an exhilarating journey as you take control of iconic characters from the Sonic
+                        universe, each equipped
+                        with their own signature Extreme Gear. These cutting-edge machines are not just a means of
+                        transportation;
+                        they're a key element in the high-stakes racing action that defines Sonic Riders.</p>
+
+                    <p>Gear up, rev your engines, and get ready for the ride of a lifetime with Sonic Riders' Extreme
+                        Gears. Are you
+                        ready to embrace the speed, defy gravity, and become the ultimate Extreme Gear rider? The track
+                        awaits, so let
+                        the race begin!</p>
+                </section>
+
+                <div class="buy_now_button">
+                    <button id="buy">
+                        Buy Now
+                    </button>
+                </div>
+            </div>
+
+    </main>
+</body>
+
+<script type="module" src="./scripts/index.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+</html>

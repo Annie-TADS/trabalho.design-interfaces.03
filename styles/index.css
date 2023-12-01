@@ -8,12 +8,21 @@ body {
 header {
     position: sticky;
     top: 0px;
-    height: 150px;
+    height: 180px;
     z-index: 200;
     width: 100vw;
     background-color: rgba(255, 255, 255, 0.7);
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+nav {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0px 10px;
+    width: 100%;
 }
 
 main {
@@ -44,9 +53,10 @@ main {
     margin-left: 2rem;
     margin-right: 2rem;
     animation: title-letters 1800ms linear 0ms infinite;
+    min-width: 90vw;
 }
 
-.gear_list {
+.second_col {
     grid-column-start: 2;
 }
 
@@ -122,6 +132,60 @@ td {
 .list-img {
     height: 30px;
     width: 30px;
+}
+
+.carousel-item > img{
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+}
+
+#about {
+    margin-top: 15px;
+    background-color: #FFFFFF44;
+    border-radius: 15px;
+}
+
+#buy {
+            background: linear-gradient(45deg, #f06, #9f6, #06f, #f06);
+                background-size: 400% 400%;
+    color: white;
+    padding: 20px 40px;
+    font-size: 24px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    outline: none;
+    position: relative;
+    animation: rainbowAnimation 4s linear infinite;
+}
+
+#buy:hover {
+            background-color: #b80000;
+}
+
+.buy_now_button {
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes rainbowAnimation {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    50% {
+        background-position: 100% 100%;
+    }
+    
+    100% {
+        background-position: 0% 0%;
+    }
 }
 
 @keyframes title-letters {
