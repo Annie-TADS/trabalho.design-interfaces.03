@@ -5,30 +5,6 @@ const data = gears.map((gear) => ({ ...gear, used_by: characters.filter((charact
 
 const gearList = document.getElementById('gear_list');
 
-// <div id="accordion">
-//     <div class="card">
-//         <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
-//             aria-controls="collapseOne">
-//             <div class="card-header" id="headingOne">
-//                 <h5 class="mb-0">
-//                     Collapsible Group Item #1
-//             </h5>
-//     </div>
-//                 </button>
-
-//     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-//         <div class="card-body">
-//             Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-//             moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-//             Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-//             shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-//             proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-//             aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-//         </div>
-//     </div>
-// </div>
-//     </div >
-
 data.forEach((e) => {
     const card = document.createElement("li");
     card.classList.add("card");
@@ -54,25 +30,25 @@ data.forEach((e) => {
      <div id="${id}" class="collapse" aria-labelledby="head " data-parent="#accordion">
          <div class="card_body">
                 <div class="stats">
-                    <table>
-                        <tbody>
+                <table class="table table-dark">
+                <tbody>
                             <tr>
-                                <th>Dash</th>
+                                <th scope="row">Dash</th>
                                 ${[...Array(8)].map((a, index) => (
                                     `<td class="${index <= e.stats.dash ? "full" : ""}"></td>`)).join("") }
                             </tr>
                             <tr>
-                                <th>Limit</th>
+                                <th scope="row">Limit</th>
                                 ${[...Array(8)].map((a, index) => (
                                     `<td class="${index <= e.stats.limit ? "full" : ""}"></td>`)).join("")}
                             </tr>
                             <tr>
-                                <th>Power</th>
+                                <th scope="row">Power</th>
                                 ${[...Array(8)].map((a, index) => (
                                     `<td class="${index <= e.stats.power ? "full" : ""}"></td>`)).join("") }
                             </tr>
                             <tr>
-                                <th>Cornering</th>
+                                <th scope="row">Cornering</th>
                                 ${[...Array(8)].map((a, index) => (
                                     `<td class="${index <= e.stats.cornering ? "full" : ""}"></td>`)).join("") }
                             </tr>
@@ -95,3 +71,27 @@ data.forEach((e) => {
 
     gearList.appendChild(card);
 })
+
+
+const modal = document.getElementById("pictureModal");
+const modalImg = document.getElementById("imgModal");
+const caption = document.getElementById("caption");
+const modalOnClick = (e) => {
+    const img = e.target; 
+    
+
+    modal.style.display = "block";
+    modalImg.src = img.src;
+    caption.innerHTML = img.alt;
+}
+
+const modalImages = document.getElementsByClassName("modal-onclick");
+[...modalImages].map((img) => {
+    console.log(img);
+  img.addEventListener("click", modalOnClick);  
+})
+
+const span = document.getElementsByClassName("close")[0];
+span.onclick = function () {
+    modal.style.display = "none";
+}

@@ -1,42 +1,42 @@
 [
     {
         "name": "Sonic",
-        "icon": "./images/sonic.png"
+        "icon": "./images/sonic.webp"
     },
     {
         "name": "Tails",
-        "icon": "./images/tails.png"
+        "icon": "./images/tails.webp"
     },
     {
         "name": "Knuckles",
-        "icon": "./images/knuckles.png"
+        "icon": "./images/knuckles.webp"
     },
     {
         "name": "Amy",
-        "icon": "./images/amy.png"
+        "icon": "./images/amy.webp"
     },
     {
         "name": "Jet",
-        "icon": "./images/jet.png"
+        "icon": "./images/jet.webp"
     },
     {
         "name": "Storm",
-        "icon": "./images/storm.png"
+        "icon": "./images/storm.webp"
     },
     {
         "name": "Wave",
-        "icon": "./images/wave.png"
+        "icon": "./images/wave.webp"
     },
     {
         "name": "Rouge",
-        "icon": "./images/rouge.png"
+        "icon": "./images/rouge.webp"
     },
     {
         "name": "Cream",
-        "icon": "./images/cream.png"
+        "icon": "./images/cream.webp"
     },
     {
         "name": "Shadow",
-        "icon": "./images/shadow.png"
+        "icon": "./images/shadow.webp"
     }
 ]
